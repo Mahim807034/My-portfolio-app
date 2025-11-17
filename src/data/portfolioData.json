@@ -1,0 +1,108 @@
+{
+  "personalInfo": {
+    "name": "Mahim",
+    "title": "Frontend Developer | Diploma in Engineering (CST)",
+    "email": "mahim807034@gmail.com",
+    "phone": "01844807034",
+    "whatsapp": "01824133344",
+    "address": "Mirpur-12, Dhaka-1216",
+    "about": "I am an 8th semester Diploma student in Computer Science and Technology (CST) from Mymensingh Polytechnic Institute. Currently learning MERN Stack Development from BD Calling Academy. I enjoy working with HTML, CSS, JavaScript, React, and Next.js. I'm passionate about learning new technologies and building real-world projects. I love writing clean code and creating user-friendly interfaces.",
+    "education": "Diploma in Computer Science and Technology (CST) - 8th Semester",
+    "institute": "Mymensingh Polytechnic Institute",
+    "profileImage": "https://i.ibb.co.com/vCSvvRJZ/Flower-mahin.jpg",
+    "socialLinks": {
+      "github": "https://github.com/mahim807034",
+      "linkedin": "https://www.linkedin.com/in/mahin807034",
+      "twitter": "https://x.com/mdmahin2583",
+      "facebook": "https://www.facebook.com/MHMahin6726"
+    }
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "description": "HTML is the fundamental language of web development. I can create accessible and SEO-friendly websites using semantic HTML5. I have experience working with forms, tables, and modern HTML5 elements.",
+      "icon": "FaHtml5",
+      "level": 95,
+      "projects": 10
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "description": "I can create responsive and modern designs using CSS. I have knowledge of Flexbox, Grid, Animations, and various CSS frameworks. I can create mobile-friendly designs using media queries.",
+      "icon": "FaCss3Alt",
+      "level": 90,
+      "projects": 8
+    },
+    {
+      "id": 3,
+      "name": "Tailwind CSS",
+      "description": "Tailwind CSS is my favorite CSS framework. I can quickly create maintainable designs using utility-first approach. I can implement dark mode, responsive design, and custom components.",
+      "icon": "SiTailwindcss",
+      "level": 85,
+      "projects": 6
+    },
+    {
+      "id": 4,
+      "name": "JavaScript",
+      "description": "I build interactive web applications with JavaScript. I have good understanding of ES6+ features, DOM manipulation, Async JavaScript, and API handling. I've completed multiple projects using pure JavaScript.",
+      "icon": "SiJavascript",
+      "level": 80,
+      "projects": 7
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "description": "I build modern web applications using React. I'm familiar with Hooks, Context API, React Router, and other React ecosystem tools. I can create reusable components and manage application state effectively.",
+      "icon": "FaReact",
+      "level": 75,
+      "projects": 5
+    },
+    {
+      "id": 6,
+      "name": "Next.js",
+      "description": "I build full-stack React applications with Next.js. I have basic knowledge of Server-side rendering, Static site generation, and API routes. I'm currently learning more advanced Next.js features.",
+      "icon": "SiNextdotjs",
+      "level": 70,
+      "projects": 3
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-commerce Website",
+      "description": "Full-functional e-commerce website built with React and Tailwind CSS",
+      "detailedDescription": "This is a complete e-commerce website with product listing, shopping cart, user authentication, and payment integration. Built with modern React hooks and context API for state management. Features include product search, filtering, user reviews, and admin dashboard.",
+      "image": "https://i.ibb.co.com/FksVd3c2/E-commerce.jpg",
+      "technologies": ["React", "Tailwind CSS", "JavaScript", "Context API", "React Router"],
+      "features": ["Product Catalog", "Shopping Cart", "User Authentication", "Payment Integration", "Admin Dashboard"],
+      "liveLink": "#",
+      "githubLink": "#",
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "Task management application built with JavaScript",
+      "detailedDescription": "A comprehensive task management application that allows users to create, update, delete, and categorize tasks. Includes features like drag-and-drop, due dates, priority levels, and progress tracking. Built with pure JavaScript and local storage for data persistence.",
+      "image": "https://i.ibb.co.com/7JHWvdSy/task-management.jpg",
+      "technologies": ["JavaScript", "HTML", "CSS", "Local Storage", "Drag & Drop API"],
+      "features": ["Create/Edit Tasks", "Drag & Drop", "Due Dates", "Priority Levels", "Progress Tracking"],
+      "liveLink": "#",
+      "githubLink": "#",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "title": "Weather App",
+      "description": "Real-time weather information app using API",
+      "detailedDescription": "A weather application that provides real-time weather information for any city worldwide. Features include current weather, 5-day forecast, location-based weather, and weather maps. Integrated with OpenWeather API for accurate weather data.",
+      "image": "https://i.ibb.co.com/rGWVBNWb/weather.jpg",
+      "technologies": ["JavaScript", "API Integration", "CSS", "Geolocation API", "Async/Await"],
+      "features": ["Current Weather", "5-Day Forecast", "Location Detection", "Weather Maps", "Search by City"],
+      "liveLink": "#",
+      "githubLink": "#",
+      "status": "Completed"
+    }
+  ]
+}
