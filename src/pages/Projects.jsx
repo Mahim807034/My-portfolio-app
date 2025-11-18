@@ -1,3 +1,4 @@
+// Projects.js - এই component automatically নতুন project show করবে
 import React from 'react';
 import { Link } from 'react-router-dom';
 import portfolioData from '../data/portfolioData.json';
@@ -86,12 +87,24 @@ const Projects = ({ darkMode }) => {
                   </div>
 
                   <div className="flex space-x-3">
-                    <Link
-                      to={`/project/${project.id}`}
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={`flex-1 text-center py-2 px-4 rounded-lg transition-colors duration-300 ${
                         darkMode 
                           ? 'bg-blue-600 hover:bg-blue-700 text-white' 
                           : 'bg-blue-600 hover:bg-blue-700 text-white'
+                      }`}
+                    >
+                      Live Demo
+                    </a>
+                    <Link
+                      to={`/project/${project.id}`}
+                      className={`flex-1 text-center py-2 px-4 rounded-lg transition-colors duration-300 ${
+                        darkMode 
+                          ? 'bg-gray-700 hover:bg-gray-600 text-white' 
+                          : 'bg-blue-700 hover:bg-blue-600 text-white'
                       }`}
                     >
                       View Details
