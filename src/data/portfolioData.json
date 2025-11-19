@@ -86,18 +86,18 @@
       ],
       "detailedDescription": "Dramatic Hub is a modern movie streaming platform that allows users to browse, search, and discover movies. It features user authentication, a comprehensive movie database, and a responsive design that works seamlessly across all devices. Built with React and integrated with Firebase for authentication and real-time data handling."
     },
-    {
-      "id": 2,
-      "title": "Task Management App",
-      "description": "Task management application built with JavaScript",
-      "detailedDescription": "A comprehensive task management application that allows users to create, update, delete, and categorize tasks. Includes features like drag-and-drop, due dates, priority levels, and progress tracking. Built with pure JavaScript and local storage for data persistence.",
-      "image": "https://i.ibb.co.com/7JHWvdSy/task-management.jpg",
-      "technologies": ["JavaScript", "HTML", "CSS", "Local Storage", "Drag & Drop API"],
-      "features": ["Create/Edit Tasks", "Drag & Drop", "Due Dates", "Priority Levels", "Progress Tracking"],
-      "liveLink": "#",
-      "githubLink": "#",
-      "status": "Completed"
-    },
+{
+  "id": 2,
+  "title": "International & BD Tour",
+  "description": "A modern React application deployed on Vercel",
+  "detailedDescription": "This is a fully functional React project showcasing modern web development practices. Built with React.js and deployed on Vercel platform. The application demonstrates clean code architecture, responsive design, and optimal performance. It includes various React features and components that highlight my frontend development skills.",
+  "image": "https://i.ibb.co.com/LdFk5QnN/Screenshot-2025-11-19-195933.png",
+  "technologies": ["React", "JavaScript", "HTML", "CSS", "Vercel", "Git"],
+  "features": ["Responsive Design", "Modern UI/UX", "Fast Performance", "Clean Code", "Vercel Deployment"],
+  "liveLink": "https://my-react-project-delta-wine.vercel.app",
+  "githubLink": "https://github.com/mahim807034/my-react-project",
+  "status": "Completed"
+},
     {
       "id": 3,
       "title": "Weather App",
