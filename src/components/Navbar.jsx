@@ -28,11 +28,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-xl font-bold text-white" onClick={closeMenu}>
-              Mahim
+            <Link 
+              to="/" 
+              className="text-xl font-bold text-white font-griffy" 
+              onClick={closeMenu}
+              style={{ fontFamily: "'Griffy', cursive" }}
+            >
+              MAHIM
             </Link>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
@@ -40,7 +45,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 ${
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 font-montserrat ${
                     location.pathname === item.path
                       ? 'bg-blue-600 text-white'
                       : 'text-white hover:bg-blue-700'
@@ -55,7 +60,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <div className="flex items-center space-x-4">
             {/* Dark Mode Toggle */}
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
-            
+
             {/* Mobile menu button */}
             <div className="md:hidden">
               <button
@@ -83,7 +88,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   key={item.path}
                   to={item.path}
                   onClick={closeMenu}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
+                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 font-montserrat ${
                     location.pathname === item.path
                       ? 'bg-blue-600 text-white'
                       : 'text-white hover:bg-blue-700'
